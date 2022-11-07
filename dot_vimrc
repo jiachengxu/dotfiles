@@ -1,0 +1,38 @@
+""""""""""""""""""""
+"     Settings     "
+""""""""""""""""""""
+set backspace=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent 
+set smartindent 
+set nocompatible 
+set ruler
+set wrap
+set incsearch
+set hlsearch
+set showmatch
+set autowrite
+set number 
+set encoding=utf-8
+syntax on
+
+"vim plug
+call plug#begin('~/.vim/plugged')
+Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdtree' 
+Plug 'scrooloose/nerdcommenter'
+Plug 'morhetz/gruvbox'
+Plug 'voldikss/vim-floaterm'
+call plug#end()
+
+"theme
+colorscheme gruvbox
+set background=dark
+
+"nerdtree
+map <C-n> :NERDTreeToggle<CR>
+map <C-k> :below term ++rows=20<CR>
+let NERDTreeWinPos='left'
+let NERDTreeShowHidden=1

@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+CONFIG_PATH=$HOME/.config/k9s/config.yml
+
+cat << EOF
+k9s:
+  refreshRate: 2
+  maxConnRetry: 5
+  enableMouse: false
+  headless: false
+  logoless: false
+  crumbsless: true
+  readOnly: false
+  noIcons: false
+  logger:
+    tail: 1000
+    buffer: 5000
+    sinceSeconds: -1
+    fullScreenLogs: false
+    textWrap: false
+    showTime: false
+EOF
+
+if [[ -e "${CONFIG_PATH}" ]] && yq --exit-status eval '.k9s | has ("currentContext")' ${CONFIG_PATH} &>/dev/null; then
+    printf '%s\n' "  currentContext: $(yq --indent 2 eval '.k9s.currentContext' ${CONFIG_PATH})"
+else
+    printf '%s\n' '  currentContext:'
+fi
+
+if [[ -e "${CONFIG_PATH}" ]] && yq --exit-status eval '.k9s | has ("currentCluster")' ${CONFIG_PATH} &>/dev/null; then
+    printf '%s\n' "  currentCluster: $(yq --indent 2 eval '.k9s.currentCluster' ${CONFIG_PATH})"
+else
+    printf '%s\n' '  currentCluster:'
+fi
+
+if [[ -e "${CONFIG_PATH}" ]] && yq --exit-status eval '.k9s | has ("clusters")' ${CONFIG_PATH} &>/dev/null; then
+    printf '%s\n' '  clusters:'
+    yq --indent 2 eval '(.k9s.clusters)' ${CONFIG_PATH} | sed -e 's/^/    /' | sed -e 's/  - /- /'
+else
+    printf '%s\n' '  clusters: ""'
+fi
+
+cat << EOF
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70
+EOF
+
