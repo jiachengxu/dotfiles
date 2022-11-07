@@ -31,6 +31,6 @@ chezmoi apply
 ```
 
 6. Misc:
-- Run `:PlugInstall` to install vim plugin.
+- Run `PackerInstall` to install neovim plugin.
 - Install iterm and [gruvbox theme](https://iterm2colorschemes.com/).
-- Install [meslo nerd font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) for p10k.
+- Install [meslo nerd font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) for p10k and neovim.
