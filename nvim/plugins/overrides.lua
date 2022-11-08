@@ -14,6 +14,13 @@ M.nvimtree = {
   renderer = {
     highlight_git = true,
   },
+  actions = {
+    open_file = {
+      window_picker = {
+        enable = false,
+      },
+    },
+  },
 }
 
 M.ui = {

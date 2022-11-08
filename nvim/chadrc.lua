@@ -1,8 +1,8 @@
 local M = {}
 
 M.ui = {
-  theme_toggle = { "nord", "oceanic-next" },
-  theme = "oceanic-next",
+  theme_toggle = { "gruvbox_material", "oceanic-next" },
+  theme = "gruvbox_material",
 }
 
 M.plugins = require "custom.plugins"

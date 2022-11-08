@@ -153,3 +153,5 @@ alias proxy='export all_proxy=socks5://127.0.0.1:1089'
 alias unproxy='unset all_proxy'
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 alias vim="nvim"
+
+export PATH=$PATH:$HOME/.local/share/nvim/mason/bin
