@@ -27,10 +27,16 @@ M.nvterm = {
 
 M.telescope = {
   n = {
-    ["<leader>gr"] = { "<cmd> Telescope lsp_references <CR>", "show keys" },
-    ["<leader>gd"] = { "<cmd> Telescope lsp_definitions <CR>", "show keys" },
+    ["gr"] = { "<cmd> Telescope lsp_references <CR>", "show keys" },
+    ["gd"] = { "<cmd> Telescope lsp_definitions <CR>", "show keys" },
   }
 }
 
+M.disabled = {
+  n = {
+    ["gd"] = "",
+    ["gr"] = "",
+  }
+}
 
 return M
