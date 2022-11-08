@@ -29,10 +29,6 @@
   type: file
   url: 'https://raw.githubusercontent.com/gpakosz/.tmux/master/.tmux.conf'
   refreshPeriod: 168h
-.tmux.conf.local:
-  type: file
-  url: 'https://raw.githubusercontent.com/gpakosz/.tmux/master/.tmux.conf.local'
-  refreshPeriod: 168h
 .config/nvim:
   type: git-repo
   url: https://github.com/NvChad/NvChad.git
