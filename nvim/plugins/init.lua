@@ -8,6 +8,9 @@ return {
   ["NvChad/ui"] = {
     override_options = overrides.ui,
   },
+  ["lewis6991/gitsigns.nvim"] = {
+    override_options = overrides.gitsigns,
+  },
   ["neovim/nvim-lspconfig"] = {
     config = function()
       require "plugins.configs.lspconfig"
