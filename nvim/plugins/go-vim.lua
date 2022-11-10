@@ -1,7 +1,7 @@
 local present, go_vim = pcall(require, "go")
 
 if not present then
-   return
+  return
 end
 
 go_vim.setup {}

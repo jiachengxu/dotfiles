@@ -5,9 +5,9 @@ M.ui = {
   theme = "gruvbox_material",
   changed_themes = {
     gruvbox_material = {
-       base_16 = {
-          base02 = "#6c6c6c",
-       },
+      base_16 = {
+        base02 = "#6c6c6c",
+      },
     },
   },
 }

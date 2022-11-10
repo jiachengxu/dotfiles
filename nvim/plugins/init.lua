@@ -18,18 +18,18 @@ return {
     end,
   },
   ["jose-elias-alvarez/null-ls.nvim"] = {
-     after = "nvim-lspconfig",
-     config = function()
-       require "custom.plugins.null-ls"
-     end,
+    after = "nvim-lspconfig",
+    config = function()
+      require "custom.plugins.null-ls"
+    end,
   },
   ["ray-x/go.nvim"] = {
-    config = function ()
+    config = function()
       require "custom.plugins.go-vim"
     end,
   },
   ["williamboman/mason.nvim"] = {
-   override_options = {
+    override_options = {
       ensure_installed = {
         "bash-language-server",
         "dockerfile-language-server",
