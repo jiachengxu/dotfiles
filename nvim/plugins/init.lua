@@ -43,4 +43,7 @@ return {
       },
     },
   },
+  ["nvim-treesitter/nvim-treesitter"] = {
+    override_options = overrides.treesitter,
+  }
 }

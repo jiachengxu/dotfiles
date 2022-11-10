@@ -42,4 +42,23 @@ M.gitsigns = {
   numhl      = true,
 }
 
+M.treesitter = {
+  ensure_installed = {
+    "bash",
+    "git_rebase",
+    "gitignore",
+    "go",
+    "gomod",
+    "gowork",
+    "javascript",
+    "json",
+    "jsonnet",
+    "lua",
+    "make",
+    "markdown",
+    "sql",
+    "yaml",
+  },
+}
+
 return M
