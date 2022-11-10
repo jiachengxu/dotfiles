@@ -45,6 +45,7 @@ M.gitsigns = {
 M.treesitter = {
   ensure_installed = {
     "bash",
+    "dockerfile",
     "git_rebase",
     "gitignore",
     "go",

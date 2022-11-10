@@ -10,7 +10,7 @@ local sources = {
 
 
   b.formatting.goimports_reviser.with({
-    args = { "-output", "stdout" , "$FILENAME" },
+    args = { "-output", "stdout", "-project-name", "github.com/akuityio", "$FILENAME"},
   }),
 }
 
