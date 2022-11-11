@@ -26,7 +26,10 @@ M.nvimtree = {
 
 M.ui = {
   statusline = {
-    separator_style = "arrow"
+    separator_style = "arrow",
+    overriden_modules = function()
+      return require "custom.plugins.statusline"
+    end,
   },
 }
 
