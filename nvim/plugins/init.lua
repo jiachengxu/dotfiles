@@ -23,11 +23,6 @@ return {
       require "custom.plugins.null-ls"
     end,
   },
-  ["ray-x/go.nvim"] = {
-    config = function()
-      require "custom.plugins.go-vim"
-    end,
-  },
   ["williamboman/mason.nvim"] = {
     override_options = {
       ensure_installed = {

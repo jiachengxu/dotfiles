@@ -8,9 +8,8 @@ local b = null_ls.builtins
 
 local sources = {
 
-
-  b.formatting.goimports_reviser.with({
-    args = { "-output", "stdout", "-project-name", "github.com/akuityio", "$FILENAME" },
+  b.formatting.goimports.with({
+    args = { "-srcdir", "$DIRNAME", "--local", "github.com/akuityio" },
   }),
 }
 
