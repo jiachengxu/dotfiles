@@ -29,6 +29,7 @@ M.telescope = {
   n = {
     ["gr"] = { "<cmd> Telescope lsp_references <CR>", "show keys" },
     ["gd"] = { "<cmd> Telescope lsp_definitions <CR>", "show keys" },
+    ["gi"] = { "<cmd> Telescope lsp_implementations <CR>", "show keys" },
   }
 }
 
@@ -36,6 +37,7 @@ M.disabled = {
   n = {
     ["gd"] = "",
     ["gr"] = "",
+    ["gi"] = "",
   }
 }
 

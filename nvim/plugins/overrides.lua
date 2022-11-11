@@ -62,4 +62,43 @@ M.treesitter = {
   },
 }
 
+M.telescope = {
+  defaults = {
+    path_display = { "absolute" },
+    prompt_prefix = " > ",
+    show_line = false,
+    mappings = {
+      i = {
+        ["<C-s>"] = "select_vertical"
+      }
+    }
+  },
+  pickers = {
+    lsp_references = {
+      show_line = false,
+      results_title = false,
+      preview_title = false,
+      prompt_title = false,
+    },
+    live_grep = {
+      show_line = false,
+      results_title = false,
+      preview_title = false,
+      prompt_title = false,
+    },
+    find_files = {
+      show_line = false,
+      results_title = false,
+      preview_title = false,
+      prompt_title = false,
+    },
+    lsp_implementations = {
+      show_line = false,
+      results_title = false,
+      preview_title = false,
+      prompt_title = false,
+    },
+  },
+}
+
 return M
