@@ -3,3 +3,7 @@
 	name = Jiacheng Xu
 [push]
     autoSetupRemote = true
+[mergetool]
+    keepBackup = false
+[merge]
+    tool = nvimdiff
