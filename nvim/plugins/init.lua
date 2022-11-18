@@ -43,5 +43,11 @@ return {
   },
   ["nvim-telescope/telescope.nvim"] = {
     override_options = overrides.telescope,
-  }
+  },
+  ["ggandor/leap.nvim"] = {
+    config = function()
+      require "custom.plugins.leap"
+    end,
+  },
+  ["rafamadriz/friendly-snippets"] = {}
 }

@@ -1,17 +1,17 @@
-foreground: &foreground "#d3c6aa"
+# K9s Gruvbox Dark Skin Contributed by [@indiebrain](https://github.com/indiebrain)
+foreground: &foreground "#ebdbb2"
 background: &background default
-# background: &background "#2b3339"
-cursorFgColor: &cursorFgColor "#2b3339"
+# background: &background "#272727"
+cursorFgColor: &cursorFgColor "#272727"
 current_line: &current_line "#ebdbb2"
 selection: &selection "#3c3735"
 comment: &comment "#bdad93"
-cyan: &cyan "#83c092"
-green: &green "#a7c080"
+cyan: &cyan "#689d69"
+green: &green "#989719"
 orange: &orange "#d79920"
-magenta: &magenta "#d699b6"
-blue: &blue "#7fbbb3"
-red: &red "#e67e80"
-white: &white "#d3c6aa"
+magenta: &magenta "#b16185"
+blue: &blue "#448488"
+red: &red "#cc231c"
 
 k9s:
   body:
@@ -30,7 +30,7 @@ k9s:
     bgColor: *background
     buttonFgColor: *foreground
     buttonBgColor: *magenta
-    buttonFocusFgColor: *white
+    buttonFocusFgColor: white
     buttonFocusBgColor: *cyan
     labelFgColor: *orange
     fieldFgColor: *foreground
