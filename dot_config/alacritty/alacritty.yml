@@ -41,7 +41,7 @@ selection:
 # Live config reload (changes require restart)
 live_config_reload: true
 window:
-  opacity: 0.95
+  opacity: 0.90
   decorations: None
 
 schemes:

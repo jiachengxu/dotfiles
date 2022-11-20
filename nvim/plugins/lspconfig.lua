@@ -27,6 +27,8 @@ local lspconfig = require "lspconfig"
 local servers = {
   "gopls",
   "sumneko_lua",
+  "bashls",
+  "marksman",
 }
 
 for _, lsp in ipairs(servers) do

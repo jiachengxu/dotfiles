@@ -32,6 +32,7 @@ return {
         "gopls",
         "json-lsp",
         "lua-language-server",
+        "marksman",
         "sqls",
         "terraform-ls",
         "yaml-language-server",
