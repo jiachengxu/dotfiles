@@ -50,5 +50,10 @@ return {
       require "custom.plugins.leap"
     end,
   },
-  ["rafamadriz/friendly-snippets"] = {}
+  ["rafamadriz/friendly-snippets"] = {},
+  ["alexghergh/nvim-tmux-navigation"] = {
+    config = function()
+      require "custom.plugins.tmux"
+    end,
+  },
 }

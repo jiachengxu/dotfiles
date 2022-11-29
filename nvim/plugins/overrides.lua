@@ -31,6 +31,9 @@ M.ui = {
       return require "custom.plugins.statusline"
     end,
   },
+  tabufline = {
+    enabled = false,
+  },
 }
 
 M.gitsigns = {
@@ -96,6 +99,12 @@ M.telescope = {
       prompt_title = false,
     },
     lsp_implementations = {
+      show_line = false,
+      results_title = false,
+      preview_title = false,
+      prompt_title = false,
+    },
+    buffers = {
       show_line = false,
       results_title = false,
       preview_title = false,
