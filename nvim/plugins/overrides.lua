@@ -14,6 +14,11 @@ M.nvimtree = {
   },
   renderer = {
     highlight_git = true,
+    icons = {
+      show = {
+        folder_arrow = false
+      }
+    }
   },
   actions = {
     open_file = {
@@ -76,7 +81,7 @@ M.telescope = {
     mappings = {
       i = {
         ["<C-s>"] = "select_vertical"
-      }
+      },
     }
   },
   pickers = {
@@ -85,6 +90,14 @@ M.telescope = {
       results_title = false,
       preview_title = false,
       prompt_title = false,
+      jump_type = "never"
+    },
+    lsp_definitions = {
+      show_line = false,
+      results_title = false,
+      preview_title = false,
+      prompt_title = false,
+      jump_type = "never"
     },
     live_grep = {
       show_line = false,
