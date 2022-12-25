@@ -41,8 +41,8 @@ selection:
 # Live config reload (changes require restart)
 live_config_reload: true
 window:
-  opacity: 0.90
-  decorations: None
+  opacity: 1.00
+  decorations: Full
 
 schemes:
   gruvbox: &gruvbox
