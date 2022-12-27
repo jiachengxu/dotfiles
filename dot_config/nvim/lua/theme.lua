@@ -5,7 +5,6 @@ if not present then
 end
 
 themer.setup({
-	colorscheme = "everforest",
 	enable_installer = true,
 	remaps = {
 		palette = {
@@ -17,3 +16,4 @@ themer.setup({
 })
 
 vim.cmd('colorscheme themer_everforest')
+-- vim.cmd('colorscheme themer_gruvbox-material-dark-medium')
