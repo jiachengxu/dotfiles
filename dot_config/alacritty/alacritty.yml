@@ -30,7 +30,7 @@ font:
     style: Italic
 
   # Font size
-  size: 15.0
+  size: 13.0
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
