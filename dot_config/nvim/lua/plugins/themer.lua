@@ -14,6 +14,3 @@ themer.setup({
     },
   },
 })
-
-vim.cmd('colorscheme themer_everforest')
--- vim.cmd('colorscheme themer_gruvbox-material-dark-medium')
