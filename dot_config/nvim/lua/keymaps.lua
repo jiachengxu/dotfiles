@@ -36,3 +36,5 @@ vim.keymap.set("n", "<leader>rn", "<cmd>Lspsaga rename<cr>", { silent = true })
 -- support tagstack C-t jump back
 vim.keymap.set("n", "<leader>gd", "<cmd>Lspsaga peek_definition<cr>", { silent = true })
 vim.keymap.set("n", "<leader>o", "<cmd>LSoutlineToggle<cr>", { silent = true })
+
+vim.keymap.set("n", "<leader>gb", function() package.loaded.gitsigns.blame_line() end)

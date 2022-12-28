@@ -14,4 +14,5 @@ gitsigns.setup({
     untracked    = { hl = "GitSignsAdd", text = "┆", numhl = "GitSignsAddNr", linehl = "GitSignsAddLn" },
   },
   numhl = true,
+  signcolumn = false,
 })
