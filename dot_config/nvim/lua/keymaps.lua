@@ -10,7 +10,7 @@ vim.keymap.set("n", "<c-k>", "<c-w>k")
 
 -- telescope
 vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>")
-vim.keymap.set("n", "<leader>fw", "<cmd>Telescope live_grep<cr>")
+vim.keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<cr>")
 vim.keymap.set("n", "gr", "<cmd>Telescope lsp_references<cr>")
 vim.keymap.set("n", "gd", "<cmd>Telescope lsp_definitions<cr>")
 vim.keymap.set("n", "gi", "<cmd>Telescope lsp_implementations<cr>")

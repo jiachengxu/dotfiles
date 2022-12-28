@@ -1,6 +1,10 @@
 vim.cmd [[packadd packer.nvim]]
 
 require("packer").startup({ function(use)
+  use {
+    "goolord/alpha-nvim",
+    requires = { "nvim-tree/nvim-web-devicons" },
+  }
   use "ray-x/lsp_signature.nvim"
   use "glepnir/lspsaga.nvim"
   use({
@@ -62,6 +66,7 @@ end,
 })
 
 require("plugins.impatient")
+require("plugins.alpha")
 require("plugins.autopairs")
 require("plugins.blankline")
 require("plugins.cmp")
