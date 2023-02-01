@@ -55,6 +55,8 @@ require("packer").startup({ function(use)
   use "saadparwaiz1/cmp_luasnip"
   use "rafamadriz/friendly-snippets"
   use "hrsh7th/nvim-cmp"
+  use "wakatime/vim-wakatime"
+  use "christoomey/vim-tmux-navigator"
 end,
   config = {
     display = {
