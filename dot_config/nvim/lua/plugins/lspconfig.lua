@@ -8,7 +8,7 @@ local servers = {
   "bashls",
   "gopls",
   "rust_analyzer",
-  "sumneko_lua",
+  "lua_ls",
 }
 
 local on_attach = function(client, bufnr)
