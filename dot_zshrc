@@ -149,7 +149,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 alias k=kubectl
 alias tf=terraform
 alias gcsm='git commit -S -m'
-alias proxy='export all_proxy=socks5://127.0.0.1:1089'
+alias proxy='export all_proxy=socks5://127.0.0.1:7890'
 alias unproxy='unset all_proxy'
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 alias vim="nvim"
