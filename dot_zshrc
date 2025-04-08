@@ -160,3 +160,5 @@ export PATH=$PATH:$HOME/.cargo/bin
 export PATH=$PATH:$HOME/.docker/bin
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="/Users/jiachengxu/.local/bin:$PATH"
+export PATH="/opt/homebrew/opt/python@3.12/libexec/bin:$PATH"
