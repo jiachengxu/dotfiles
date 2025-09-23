@@ -32,7 +32,6 @@ packages:
       - "kubernetes-cli"
       - "kustomize"
       - "make"
-      - "neovim"
       - "node"
       - "openjdk"
       - "pnpm"

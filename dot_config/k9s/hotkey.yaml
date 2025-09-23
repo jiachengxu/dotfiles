@@ -1,7 +1,0 @@
-hotKey:
-
-  # Hitting Shift-0 navigates to your pod view
-  ctrl-l:
-    shortCut:    ctrl-l
-    description: all
-    command:     all

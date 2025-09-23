@@ -23,13 +23,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree' 
 Plug 'scrooloose/nerdcommenter'
-Plug 'morhetz/gruvbox'
 Plug 'voldikss/vim-floaterm'
 call plug#end()
-
-"theme
-colorscheme gruvbox
-set background=dark
 
 "nerdtree
 map <C-n> :NERDTreeToggle<CR>
