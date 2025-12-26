@@ -164,3 +164,24 @@ export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH="/Users/jiachengxu/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/python@3.12/libexec/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# Set these in your shell (e.g., ~/.bashrc, ~/.zshrc)
+# export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+# export ANTHROPIC_AUTH_TOKEN="$OPENROUTER_API_KEY"
+# export ANTHROPIC_API_KEY="" # Important: Must be explicitly empty
+# export ANTHROPIC_DEFAULT_SONNET_MODEL="deepseek/deepseek-v3.2"
+# export ANTHROPIC_DEFAULT_OPUS_MODEL="deepseek/deepseek-v3.2"
+# export ANTHROPIC_DEFAULT_HAIKU_MODEL="deepseek/deepseek-v3.2"
+# export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
+
+# export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+# export ANTHROPIC_AUTH_TOKEN=<API KEY>
+# export API_TIMEOUT_MS=600000
+# export ANTHROPIC_DEFAULT_SONNET_MODEL="deepseek-chat"
+# export ANTHROPIC_DEFAULT_OPUS_MODEL="deepseek-chat"
+# export ANTHROPIC_DEFAULT_HAIKU_MODEL="deepseek-chat"
+# export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
+
+
+export PATH="/Users/jiachengxu/.antigravity/antigravity/bin:$PATH"
+
