@@ -185,3 +185,13 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 export PATH="/Users/jiachengxu/.antigravity/antigravity/bin:$PATH"
 
+# bun completions
+[ -s "/Users/jiachengxu/.bun/_bun" ] && source "/Users/jiachengxu/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Local secrets (not tracked in git)
+[[ -f ~/.secrets ]] && source ~/.secrets
+
