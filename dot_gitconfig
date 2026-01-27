@@ -1,11 +1,15 @@
 [user]
-	email = "xjcmaxwellcjx@gmail.com"
-	name = Jiacheng Xu
+    email = xjcmaxwellcjx@gmail.com
+    name = Jiacheng Xu
+
+[init]
+    defaultBranch = main
+
 [push]
     autoSetupRemote = true
-[mergetool]
-    keepBackup = false
+
 [merge]
     tool = nvimdiff
-[init]
-	defaultBranch = main
+
+[mergetool]
+    keepBackup = false

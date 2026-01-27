@@ -5,16 +5,16 @@ set backspace=2
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set autoindent 
-set smartindent 
-set nocompatible 
+set autoindent
+set smartindent
+set nocompatible
 set ruler
 set wrap
 set incsearch
 set hlsearch
 set showmatch
 set autowrite
-set number 
+set number
 set encoding=utf-8
 syntax on
 

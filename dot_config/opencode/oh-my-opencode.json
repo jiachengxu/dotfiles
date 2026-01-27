@@ -1,12 +1,21 @@
 {
-  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/v2.14.1/assets/oh-my-opencode.schema.json",
-  "google_auth": false,
-  "sisyphus_agent": {
-    "disabled": false
-  },
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/v3.1.2/assets/oh-my-opencode.schema.json",
+  "disabled_mcps": ["context7"],
   "agents": {
-    "Sisyphus": {
+    "sisyphus": {
       "model": "github-copilot/claude-opus-4.5"
+    },
+    "prometheus": {
+      "model": "github-copilot/claude-opus-4.5"
+    },
+    "metis": {
+      "model": "github-copilot/claude-sonnet-4.5"
+    },
+    "momus": {
+      "model": "github-copilot/claude-opus-4.5"
+    },
+    "atlas": {
+      "model": "github-copilot/claude-sonnet-4.5"
     },
     "oracle": {
       "model": "github-copilot/gpt-5.2"
@@ -15,16 +24,23 @@
       "model": "github-copilot/claude-sonnet-4.5"
     },
     "explore": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "github-copilot/gemini-3-flash-preview"
     },
     "frontend-ui-ux-engineer": {
-      "model": "google/antigravity-gemini-3-pro"
+      "model": "github-copilot/gemini-3-pro-preview"
     },
     "document-writer": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "github-copilot/gemini-3-flash-preview"
     },
     "multimodal-looker": {
-      "model": "google/antigravity-gemini-3-pro"
+      "model": "github-copilot/gemini-3-pro-preview"
     }
+  },
+  "tmux": {
+    "enabled": true,
+    "layout": "main-vertical",
+    "main_pane_size": 60,
+    "main_pane_min_width": 120,
+    "agent_pane_min_width": 40
   }
 }
