@@ -8,5 +8,6 @@
 
 # Not managed by chezmoi
 README.md
+AGENTS.md
 vscode/
 goland/
