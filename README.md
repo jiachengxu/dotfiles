@@ -1,11 +1,22 @@
 # dotfiles
-`.` files, managed with [chezmoi](https://github.com/twpayne/chezmoi)
 
-## On a new machine
-1. Install homebrew:
+Personal dotfiles managed with [chezmoi](https://github.com/twpayne/chezmoi).
+
+## What's Included
+
+- **Terminal**: Ghostty with Flexoki Light theme
+- **Shell**: zsh with oh-my-zsh and powerlevel10k
+- **Multiplexer**: tmux with Flexoki Light powerline theme
+- **Editor**: vim, neovim, ideavim
+- **Kubernetes**: k9s with Flexoki skins
+- **AI**: opencode with oh-my-opencode
+
+## Setup on a New Machine
+
+1. Install Homebrew:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 2. Install chezmoi:
@@ -14,23 +25,21 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 brew install chezmoi
 ```
 
-3. Init dotfiles:
+3. Initialize dotfiles:
 
 ```bash
 chezmoi init jiachengxu -S ~/projects/personal/dotfiles
 ```
 
-4. Edit config file:
-```bash
-vim ~/.config/chezmoi/chezmoi.yaml 
-```
+4. Review and apply:
 
-5. Apply the change:
 ```bash
+chezmoi diff
 chezmoi apply
 ```
 
-6. Misc:
-- Run `PackerInstall` to install neovim plugin.
-- Install iterm and [gruvbox theme](https://iterm2colorschemes.com/).
-- Install [meslo nerd font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) for p10k and neovim.
+## Post-Setup
+
+- Install [MesloLGS NF](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) font for powerlevel10k and terminal
+- Install [Ghostty](https://ghostty.org/) terminal
+- Run `tmux` and press `prefix + I` to install tmux plugins
