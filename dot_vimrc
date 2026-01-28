@@ -24,10 +24,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree' 
 Plug 'scrooloose/nerdcommenter'
 Plug 'voldikss/vim-floaterm'
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 "nerdtree
 map <C-n> :NERDTreeToggle<CR>
-map <C-k> :below term ++rows=20<CR>
 let NERDTreeWinPos='left'
 let NERDTreeShowHidden=1

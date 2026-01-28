@@ -49,7 +49,6 @@ path=(
   $GOROOT/bin
   $GOPATH/bin
   $HOME/.krew/bin
-  $HOME/.local/share/nvim/mason/bin
   $HOME/.cargo/bin
   $HOME/.docker/bin
   /usr/local/opt/libpq/bin
